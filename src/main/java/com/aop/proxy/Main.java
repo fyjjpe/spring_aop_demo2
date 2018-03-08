@@ -6,9 +6,9 @@ package com.aop.proxy;
  */
 public class Main {
     public static void main(String[] args) {
-        StudentBean s1 = new StudentBean("zhangsan");
+        StudentInterface s1 = new StudentBean();
         ProxyFactory factory = new ProxyFactory();
-        StudentBean s2 = (StudentBean) factory.createStudentProxy(s1);
+        StudentInterface s2 = (StudentInterface) factory.createStudentProxy(s1);
         s2.print();
     }
 }
