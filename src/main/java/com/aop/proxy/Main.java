@@ -2,7 +2,7 @@ package com.aop.proxy;
 
 /**
  * Created by yuanjie.fang on 2018/3/7.
- * Proxy Aop测试类
+ * 测试使用Proxy实现AOP
  */
 public class Main {
     public static void main(String[] args) {

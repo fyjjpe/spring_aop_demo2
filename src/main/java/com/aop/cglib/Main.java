@@ -2,6 +2,7 @@ package com.aop.cglib;
 
 /**
  * Created by yuanjie.fang on 2018/3/8.
+ * 测试使用CGLib进行AOP实现
  */
 public class Main {
     public static void main(String[] args) {
